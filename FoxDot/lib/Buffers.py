@@ -314,6 +314,8 @@ class BufferManager(object):
         candidates = []
         for filename in sorted(os.listdir(dirname)):
             name, ext = splitext(filename)
+            if 'Placeholder' in name:
+                continue
             if ext.lower()[1:] in self._ext:
                 fullpath = join(dirname, filename)
                 if len(candidates) == index:

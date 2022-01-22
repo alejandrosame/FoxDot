@@ -7,7 +7,7 @@ FoxDot/lib/Settings/conf.py
 FoxDot/lib/Extensions/VRender/tmp/*
 build/*
 dist/*
-FoxDot/snd/_loop_/*
+#FoxDot/snd/_loop_/*
 FoxDot/osc/scsyndef/test.scd
 FoxDot/lib/GhostCoder/*
 FoxDot/lib/Settings/conf.txt
