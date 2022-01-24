@@ -233,6 +233,10 @@ pianovel.add()
 pink = FileSynthDef("pink")
 pink.add()
 
+# A placeholder mute synth for OSC hacks.
+placeholder = FileSynthDef("placeholder")
+placeholder.add()
+
 pmcrotal = FileSynthDef("pmcrotal")
 pmcrotal.add()
 
